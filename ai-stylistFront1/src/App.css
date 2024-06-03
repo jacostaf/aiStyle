@@ -68,3 +68,10 @@ button {
   text-decoration: none;
   border-radius: 5px;
 }
+
+.spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
