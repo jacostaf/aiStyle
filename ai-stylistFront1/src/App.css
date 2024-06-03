@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+input {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #61dafb;
+  color: white;
+}
+
+.dropzone {
+  border: 2px dashed #61dafb;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.outfit {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.outfit-item {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: left;
+  width: 200px;
+}
+
+.outfit-item img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.outfit-item p {
+  margin: 10px 0;
+}
+
+.outfit-item a {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #61dafb;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
